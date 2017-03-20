@@ -96,7 +96,6 @@ private:
 	XdmNode ** attrValues;//caches attribute nodes when getAttributeNodes method is first called;
 	int attrCount;
 	XDM_NODE_KIND nodeKind;
-    
 };
 
 #endif
