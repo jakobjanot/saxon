@@ -26,8 +26,8 @@
 #define CVERSION "1.0.2"
 #include <string>
 #include <iostream>
-#include <sstream>  
-#include <map>	
+#include <sstream>
+#include <map>
 #include <vector>
 #include <stdexcept>      // std::logic_error
 

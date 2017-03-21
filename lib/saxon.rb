@@ -1,9 +1,4 @@
 require "saxon/version"
-
-require 'ffi'
-require 'ffi-compiler/loader'
-
+require "saxon"
 module Saxon
-  extend FFI::Library
-  ffi_lib FFI::Compiler::Loader.find('saxon')
 end
